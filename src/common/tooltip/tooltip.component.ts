@@ -18,7 +18,7 @@ import { AlignmentTypes } from './alignment.type';
         [hidden]="!showCaret"
         class="tooltip-caret position-{{this.placement}}">
       </span>
-      <div class="tooltip-content">
+      <div class="tooltip-content-chart">
         <span *ngIf="!title">
           <ng-template
             [ngTemplateOutlet]="template"

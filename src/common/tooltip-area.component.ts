@@ -33,7 +33,7 @@ import {
         <xhtml:div class="area-tooltip-container">
           <xhtml:div
             *ngFor="let tooltipItem of model"
-            class="tooltip-item">
+            class="tooltip-item-chart">
             <span
               class="tooltip-item-color"
               [style.background-color]="tooltipItem.color">
